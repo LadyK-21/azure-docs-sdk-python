@@ -679,7 +679,8 @@
         "folder": "azure-mgmt-logic",
         "install_type": "pypi",
         "name": "azure-mgmt-logic",
-        "version": "==9.0.0"
+        "version": "==10.0.0",
+        "extra_index_url": "https://pkgs.dev.azure.com/azure-sdk/public/_packaging/azure-sdk-for-python/pypi/simple/"
       },
       "exclude_path": [
         "test*",
