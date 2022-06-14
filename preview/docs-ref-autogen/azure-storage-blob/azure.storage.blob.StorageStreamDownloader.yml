@@ -136,7 +136,7 @@ methods:
 
 
     This operation is blocking until all data is downloaded.'
-  signature: readall() -> Union[bytes, str]
+  signature: readall()
   return:
     types:
     - <xref:bytes>
