@@ -59,6 +59,13 @@
     - name: Management
       children:
       - azure-mgmt-automation
+  - name: Autosuggest
+    landingPageType: Service
+    items:
+    - name: Autosuggest
+      href: ~/docs-ref-services/preview/cognitiveservices-search-autosuggest-readme.md
+      children:
+      - azure-cognitiveservices-search-autosuggest
   - name: Azure AD B2C
     landingPageType: Service
     items:
@@ -125,14 +132,81 @@
     href: ~/docs-ref-services/preview/cognitive-services.md
     landingPageType: Service
     items:
+    - name: Anomaly Detector
+      href: ~/docs-ref-services/preview/cognitiveservices-anomalydetector-readme.md
+      children:
+      - azure-cognitiveservices-anomalydetector
+    - name: QnA Maker
+      href: ~/docs-ref-services/preview/cognitiveservices-knowledge-qnamaker-readme.md
+      children:
+      - azure-cognitiveservices-knowledge-qnamaker
+    - name: Language Understanding (LUIS)
+      href: ~/docs-ref-services/preview/cognitiveservices-language-luis-readme.md
+      children:
+      - azure-cognitiveservices-language-luis
+    - name: Spell Check
+      href: ~/docs-ref-services/preview/cognitiveservices-language-spellcheck-readme.md
+      children:
+      - azure-cognitiveservices-language-spellcheck
     - name: Text Analytics
       href: ~/docs-ref-services/preview/cognitiveservices-language-textanalytics-readme.md
       children:
       - azure-cognitiveservices-language-textanalytics
+    - name: Personalizer
+      href: ~/docs-ref-services/preview/cognitiveservices-personalizer-readme.md
+      children:
+      - azure-cognitiveservices-personalizer
+    - name: Custom Image Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-customimagesearch-readme.md
+      children:
+      - azure-cognitiveservices-search-customimagesearch
+    - name: Custom Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-customsearch-readme.md
+      children:
+      - azure-cognitiveservices-search-customsearch
+    - name: Entity Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-entitysearch-readme.md
+      children:
+      - azure-cognitiveservices-search-entitysearch
+    - name: Image Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-imagesearch-readme.md
+      children:
+      - azure-cognitiveservices-search-imagesearch
+    - name: News Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-newssearch-readme.md
+      children:
+      - azure-cognitiveservices-search-newssearch
+    - name: Video Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-videosearch-readme.md
+      children:
+      - azure-cognitiveservices-search-videosearch
+    - name: Visual Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-visualsearch-readme.md
+      children:
+      - azure-cognitiveservices-search-visualsearch
+    - name: Web Search
+      href: ~/docs-ref-services/preview/cognitiveservices-search-websearch-readme.md
+      children:
+      - azure-cognitiveservices-search-websearch
+    - name: Computer Vision
+      href: ~/docs-ref-services/preview/cognitiveservices-vision-computervision-readme.md
+      children:
+      - azure-cognitiveservices-vision-computervision
+    - name: Content Moderator
+      href: ~/docs-ref-services/preview/cognitiveservices-vision-contentmoderator-readme.md
+      children:
+      - azure-cognitiveservices-vision-contentmoderator
+    - name: Custom Vision
+      href: ~/docs-ref-services/preview/cognitiveservices-vision-customvision-readme.md
+      children:
+      - azure-cognitiveservices-vision-customvision
     - name: Face
       href: ~/docs-ref-services/preview/cognitiveservices-vision-face-readme.md
       children:
       - azure-cognitiveservices-vision-face
+    - name: Management
+      children:
+      - azure-mgmt-cognitiveservices
   - name: Communication
     landingPageType: Service
     items:
@@ -195,6 +269,16 @@
       href: ~/docs-ref-services/preview/containerregistry-readme.md
       children:
       - azure-containerregistry
+    - name: Management
+      landingPageType: Service
+      children:
+      - azure-mgmt-containerregistry
+  - name: Container Service
+    landingPageType: Service
+    items:
+    - name: Management
+      children:
+      - azure-mgmt-containerservice
   - name: Content Delivery Network
     href: ~/docs-ref-services/preview/content-delivery-network.md
     landingPageType: Service
@@ -389,6 +473,12 @@
       href: ~/docs-ref-services/preview/keyvault-secrets-readme.md
       children:
       - azure-keyvault-secrets
+  - name: Kubernetes Configuration
+    landingPageType: Service
+    items:
+    - name: Management
+      children:
+      - azure-mgmt-kubernetesconfiguration
   - name: Lab Services
     landingPageType: Service
     items:
@@ -625,6 +715,12 @@
     - name: Management
       children:
       - azure-mgmt-servicelinker
+  - name: Spring Cloud
+    landingPageType: Service
+    items:
+    - name: Management
+      children:
+      - azure-mgmt-appplatform
   - name: SQL
     href: ~/docs-ref-services/preview/sql.md
     landingPageType: Service

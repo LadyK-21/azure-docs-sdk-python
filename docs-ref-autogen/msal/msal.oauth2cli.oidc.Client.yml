@@ -17,11 +17,11 @@ constructor:
   - name: server_configuration
   - name: client_id
   - name: on_obtaining_tokens
-    defaultValue: <function Client.<lambda> at 0x0000016D677FEA60>
+    defaultValue: <function Client.<lambda> at 0x0000025AD56ED9D0>
   - name: on_removing_rt
-    defaultValue: <function Client.<lambda> at 0x0000016D677FEAF0>
+    defaultValue: <function Client.<lambda> at 0x0000025AD56EDA60>
   - name: on_updating_rt
-    defaultValue: <function Client.<lambda> at 0x0000016D677FEB80>
+    defaultValue: <function Client.<lambda> at 0x0000025AD56EDAF0>
 methods:
 - uid: msal.oauth2cli.oidc.Client.build_auth_request_uri
   name: build_auth_request_uri
