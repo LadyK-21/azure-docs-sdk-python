@@ -47,11 +47,9 @@ constructor:
       will raise a ValueError.'
     defaultValue: None
   - name: api_version
-    description: 'The Storage API version to use for requests. Default value is the
-      most recent service version that is
+    description: 'The Storage API version to use for requests. Default value is ''2019-07-07''.
 
-      compatible with the current SDK. Setting to an older version may result in reduced
-      feature compatibility.
+      Setting to an older version may result in reduced feature compatibility.
 
 
       New in version 12.2.0.'
@@ -545,12 +543,6 @@ methods:
       account. The default value is *False*.
 
       .. versionadded:: 12.4.0'
-    types:
-    - <xref:bool>
-  - name: include_system
-    description: 'Flag specifying that system containers should be included.
-
-      .. versionadded:: 12.10.0'
     types:
     - <xref:bool>
   - name: results_per_page

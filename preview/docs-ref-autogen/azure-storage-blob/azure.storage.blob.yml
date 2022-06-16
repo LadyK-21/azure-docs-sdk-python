@@ -187,11 +187,6 @@ functions:
       value is https.
     types:
     - <xref:str>
-  - name: encryption_scope
-    description: Specifies the encryption scope for a request made so that all write
-      operations will be service encrypted.
-    types:
-    - <xref:str>
   return:
     description: A Shared Access Signature (sas) token.
     types:
@@ -270,7 +265,7 @@ functions:
 
       user is restricted to operations allowed by the permissions.
 
-      Permissions must be ordered racwdxytmei.
+      Permissions must be ordered read, write, delete, list.
 
       Required unless an id is given referencing a stored access policy
 
@@ -378,11 +373,6 @@ functions:
       using this shared access signature.'
     types:
     - <xref:str>
-  - name: encryption_scope
-    description: Specifies the encryption scope for a request made so that all write
-      operations will be service encrypted.
-    types:
-    - <xref:str>
   return:
     description: A Shared Access Signature (sas) token.
     types:
@@ -437,7 +427,7 @@ functions:
 
       user is restricted to operations allowed by the permissions.
 
-      Permissions must be ordered racwdxyltfmei.
+      Permissions must be ordered read, write, delete, list.
 
       Required unless an id is given referencing a stored access policy
 
@@ -535,11 +525,6 @@ functions:
     description: 'Response header value for Content-Type when resource is accessed
 
       using this shared access signature.'
-    types:
-    - <xref:str>
-  - name: encryption_scope
-    description: Specifies the encryption scope for a request made so that all write
-      operations will be service encrypted.
     types:
     - <xref:str>
   return:
