@@ -8,7 +8,7 @@ ms.topic: reference
 ms.devlang: python
 ms.service: communication
 ---
-# Azure Communication Identity Package client library for Python - Version 1.1.0a20220621003 
+# Azure Communication Identity Package client library for Python - Version 1.1.0a20220621004 
 
 
 Azure Communication Identity client package is intended to be used to setup the basics for opening a way to use Azure Communication Service offerings. This package helps to create identity user tokens to be used by other client packages such as chat, calling, sms.
