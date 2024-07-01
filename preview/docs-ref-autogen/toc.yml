@@ -668,6 +668,108 @@
   name: azure.ai.generative
 - items:
   - name: Overview
+    uid: azure.ai.inference
+  - items:
+    - name: Overview
+      uid: azure.ai.inference.aio
+    - name: ChatCompletionsClient
+      uid: azure.ai.inference.aio.ChatCompletionsClient
+    - name: EmbeddingsClient
+      uid: azure.ai.inference.aio.EmbeddingsClient
+    - name: ImageEmbeddingsClient
+      uid: azure.ai.inference.aio.ImageEmbeddingsClient
+    name: aio
+  - items:
+    - name: Overview
+      uid: azure.ai.inference.models
+    - name: AssistantMessage
+      uid: azure.ai.inference.models.AssistantMessage
+    - name: AsyncStreamingChatCompletions
+      uid: azure.ai.inference.models.AsyncStreamingChatCompletions
+    - name: ChatChoice
+      uid: azure.ai.inference.models.ChatChoice
+    - name: ChatCompletions
+      uid: azure.ai.inference.models.ChatCompletions
+    - name: ChatCompletionsFunctionToolCall
+      uid: azure.ai.inference.models.ChatCompletionsFunctionToolCall
+    - name: ChatCompletionsFunctionToolDefinition
+      uid: azure.ai.inference.models.ChatCompletionsFunctionToolDefinition
+    - name: ChatCompletionsFunctionToolSelection
+      uid: azure.ai.inference.models.ChatCompletionsFunctionToolSelection
+    - name: ChatCompletionsNamedFunctionToolSelection
+      uid: azure.ai.inference.models.ChatCompletionsNamedFunctionToolSelection
+    - name: ChatCompletionsNamedToolSelection
+      uid: azure.ai.inference.models.ChatCompletionsNamedToolSelection
+    - name: ChatCompletionsResponseFormat
+      uid: azure.ai.inference.models.ChatCompletionsResponseFormat
+    - name: ChatCompletionsToolCall
+      uid: azure.ai.inference.models.ChatCompletionsToolCall
+    - name: ChatCompletionsToolDefinition
+      uid: azure.ai.inference.models.ChatCompletionsToolDefinition
+    - name: ChatCompletionsToolSelectionPreset
+      uid: azure.ai.inference.models.ChatCompletionsToolSelectionPreset
+    - name: ChatRequestMessage
+      uid: azure.ai.inference.models.ChatRequestMessage
+    - name: ChatResponseMessage
+      uid: azure.ai.inference.models.ChatResponseMessage
+    - name: ChatRole
+      uid: azure.ai.inference.models.ChatRole
+    - name: CompletionsFinishReason
+      uid: azure.ai.inference.models.CompletionsFinishReason
+    - name: CompletionsUsage
+      uid: azure.ai.inference.models.CompletionsUsage
+    - name: ContentItem
+      uid: azure.ai.inference.models.ContentItem
+    - name: EmbeddingEncodingFormat
+      uid: azure.ai.inference.models.EmbeddingEncodingFormat
+    - name: EmbeddingInput
+      uid: azure.ai.inference.models.EmbeddingInput
+    - name: EmbeddingInputType
+      uid: azure.ai.inference.models.EmbeddingInputType
+    - name: EmbeddingItem
+      uid: azure.ai.inference.models.EmbeddingItem
+    - name: EmbeddingsResult
+      uid: azure.ai.inference.models.EmbeddingsResult
+    - name: EmbeddingsUsage
+      uid: azure.ai.inference.models.EmbeddingsUsage
+    - name: FunctionCall
+      uid: azure.ai.inference.models.FunctionCall
+    - name: FunctionDefinition
+      uid: azure.ai.inference.models.FunctionDefinition
+    - name: ImageContentItem
+      uid: azure.ai.inference.models.ImageContentItem
+    - name: ImageDetailLevel
+      uid: azure.ai.inference.models.ImageDetailLevel
+    - name: ImageUrl
+      uid: azure.ai.inference.models.ImageUrl
+    - name: ModelInfo
+      uid: azure.ai.inference.models.ModelInfo
+    - name: ModelType
+      uid: azure.ai.inference.models.ModelType
+    - name: StreamingChatChoiceUpdate
+      uid: azure.ai.inference.models.StreamingChatChoiceUpdate
+    - name: StreamingChatCompletions
+      uid: azure.ai.inference.models.StreamingChatCompletions
+    - name: StreamingChatCompletionsUpdate
+      uid: azure.ai.inference.models.StreamingChatCompletionsUpdate
+    - name: SystemMessage
+      uid: azure.ai.inference.models.SystemMessage
+    - name: TextContentItem
+      uid: azure.ai.inference.models.TextContentItem
+    - name: ToolMessage
+      uid: azure.ai.inference.models.ToolMessage
+    - name: UserMessage
+      uid: azure.ai.inference.models.UserMessage
+    name: models
+  - name: ChatCompletionsClient
+    uid: azure.ai.inference.ChatCompletionsClient
+  - name: EmbeddingsClient
+    uid: azure.ai.inference.EmbeddingsClient
+  - name: ImageEmbeddingsClient
+    uid: azure.ai.inference.ImageEmbeddingsClient
+  name: azure.ai.inference
+- items:
+  - name: Overview
     uid: azure.ai.ml
   - items:
     - name: Overview
@@ -8856,6 +8958,418 @@
   - name: AutomationClient
     uid: azure.mgmt.automation.AutomationClient
   name: azure.mgmt.automation
+- items:
+  - name: Overview
+    uid: azure.mgmt.avs
+  - items:
+    - name: Overview
+      uid: azure.mgmt.avs.aio
+    - items:
+      - name: Overview
+        uid: azure.mgmt.avs.aio.operations
+      - name: AddonsOperations
+        uid: azure.mgmt.avs.aio.operations.AddonsOperations
+      - name: AuthorizationsOperations
+        uid: azure.mgmt.avs.aio.operations.AuthorizationsOperations
+      - name: CloudLinksOperations
+        uid: azure.mgmt.avs.aio.operations.CloudLinksOperations
+      - name: ClustersOperations
+        uid: azure.mgmt.avs.aio.operations.ClustersOperations
+      - name: DatastoresOperations
+        uid: azure.mgmt.avs.aio.operations.DatastoresOperations
+      - name: GlobalReachConnectionsOperations
+        uid: azure.mgmt.avs.aio.operations.GlobalReachConnectionsOperations
+      - name: HcxEnterpriseSitesOperations
+        uid: azure.mgmt.avs.aio.operations.HcxEnterpriseSitesOperations
+      - name: IscsiPathsOperations
+        uid: azure.mgmt.avs.aio.operations.IscsiPathsOperations
+      - name: LocationsOperations
+        uid: azure.mgmt.avs.aio.operations.LocationsOperations
+      - name: Operations
+        uid: azure.mgmt.avs.aio.operations.Operations
+      - name: PlacementPoliciesOperations
+        uid: azure.mgmt.avs.aio.operations.PlacementPoliciesOperations
+      - name: PrivateCloudsOperations
+        uid: azure.mgmt.avs.aio.operations.PrivateCloudsOperations
+      - name: ScriptCmdletsOperations
+        uid: azure.mgmt.avs.aio.operations.ScriptCmdletsOperations
+      - name: ScriptExecutionsOperations
+        uid: azure.mgmt.avs.aio.operations.ScriptExecutionsOperations
+      - name: ScriptPackagesOperations
+        uid: azure.mgmt.avs.aio.operations.ScriptPackagesOperations
+      - name: VirtualMachinesOperations
+        uid: azure.mgmt.avs.aio.operations.VirtualMachinesOperations
+      - name: WorkloadNetworksOperations
+        uid: azure.mgmt.avs.aio.operations.WorkloadNetworksOperations
+      name: operations
+    - name: AVSClient
+      uid: azure.mgmt.avs.aio.AVSClient
+    name: aio
+  - items:
+    - name: Overview
+      uid: azure.mgmt.avs.models
+    - name: ActionType
+      uid: azure.mgmt.avs.models.ActionType
+    - name: Addon
+      uid: azure.mgmt.avs.models.Addon
+    - name: AddonArcProperties
+      uid: azure.mgmt.avs.models.AddonArcProperties
+    - name: AddonHcxProperties
+      uid: azure.mgmt.avs.models.AddonHcxProperties
+    - name: AddonList
+      uid: azure.mgmt.avs.models.AddonList
+    - name: AddonProperties
+      uid: azure.mgmt.avs.models.AddonProperties
+    - name: AddonProvisioningState
+      uid: azure.mgmt.avs.models.AddonProvisioningState
+    - name: AddonSrmProperties
+      uid: azure.mgmt.avs.models.AddonSrmProperties
+    - name: AddonType
+      uid: azure.mgmt.avs.models.AddonType
+    - name: AddonVrProperties
+      uid: azure.mgmt.avs.models.AddonVrProperties
+    - name: AdminCredentials
+      uid: azure.mgmt.avs.models.AdminCredentials
+    - name: AffinityStrength
+      uid: azure.mgmt.avs.models.AffinityStrength
+    - name: AffinityType
+      uid: azure.mgmt.avs.models.AffinityType
+    - name: AvailabilityProperties
+      uid: azure.mgmt.avs.models.AvailabilityProperties
+    - name: AvailabilityStrategy
+      uid: azure.mgmt.avs.models.AvailabilityStrategy
+    - name: AzureHybridBenefitType
+      uid: azure.mgmt.avs.models.AzureHybridBenefitType
+    - name: Circuit
+      uid: azure.mgmt.avs.models.Circuit
+    - name: CloudLink
+      uid: azure.mgmt.avs.models.CloudLink
+    - name: CloudLinkList
+      uid: azure.mgmt.avs.models.CloudLinkList
+    - name: CloudLinkProvisioningState
+      uid: azure.mgmt.avs.models.CloudLinkProvisioningState
+    - name: CloudLinkStatus
+      uid: azure.mgmt.avs.models.CloudLinkStatus
+    - name: Cluster
+      uid: azure.mgmt.avs.models.Cluster
+    - name: ClusterList
+      uid: azure.mgmt.avs.models.ClusterList
+    - name: ClusterProvisioningState
+      uid: azure.mgmt.avs.models.ClusterProvisioningState
+    - name: ClusterUpdate
+      uid: azure.mgmt.avs.models.ClusterUpdate
+    - name: ClusterZone
+      uid: azure.mgmt.avs.models.ClusterZone
+    - name: ClusterZoneList
+      uid: azure.mgmt.avs.models.ClusterZoneList
+    - name: CreatedByType
+      uid: azure.mgmt.avs.models.CreatedByType
+    - name: Datastore
+      uid: azure.mgmt.avs.models.Datastore
+    - name: DatastoreList
+      uid: azure.mgmt.avs.models.DatastoreList
+    - name: DatastoreProvisioningState
+      uid: azure.mgmt.avs.models.DatastoreProvisioningState
+    - name: DatastoreStatus
+      uid: azure.mgmt.avs.models.DatastoreStatus
+    - name: DhcpTypeEnum
+      uid: azure.mgmt.avs.models.DhcpTypeEnum
+    - name: DiskPoolVolume
+      uid: azure.mgmt.avs.models.DiskPoolVolume
+    - name: DnsServiceLogLevelEnum
+      uid: azure.mgmt.avs.models.DnsServiceLogLevelEnum
+    - name: DnsServiceStatusEnum
+      uid: azure.mgmt.avs.models.DnsServiceStatusEnum
+    - name: DnsZoneType
+      uid: azure.mgmt.avs.models.DnsZoneType
+    - name: ElasticSanVolume
+      uid: azure.mgmt.avs.models.ElasticSanVolume
+    - name: Encryption
+      uid: azure.mgmt.avs.models.Encryption
+    - name: EncryptionKeyStatus
+      uid: azure.mgmt.avs.models.EncryptionKeyStatus
+    - name: EncryptionKeyVaultProperties
+      uid: azure.mgmt.avs.models.EncryptionKeyVaultProperties
+    - name: EncryptionState
+      uid: azure.mgmt.avs.models.EncryptionState
+    - name: EncryptionVersionType
+      uid: azure.mgmt.avs.models.EncryptionVersionType
+    - name: Endpoints
+      uid: azure.mgmt.avs.models.Endpoints
+    - name: ErrorAdditionalInfo
+      uid: azure.mgmt.avs.models.ErrorAdditionalInfo
+    - name: ErrorDetail
+      uid: azure.mgmt.avs.models.ErrorDetail
+    - name: ErrorResponse
+      uid: azure.mgmt.avs.models.ErrorResponse
+    - name: ExpressRouteAuthorization
+      uid: azure.mgmt.avs.models.ExpressRouteAuthorization
+    - name: ExpressRouteAuthorizationList
+      uid: azure.mgmt.avs.models.ExpressRouteAuthorizationList
+    - name: ExpressRouteAuthorizationProvisioningState
+      uid: azure.mgmt.avs.models.ExpressRouteAuthorizationProvisioningState
+    - name: GlobalReachConnection
+      uid: azure.mgmt.avs.models.GlobalReachConnection
+    - name: GlobalReachConnectionList
+      uid: azure.mgmt.avs.models.GlobalReachConnectionList
+    - name: GlobalReachConnectionProvisioningState
+      uid: azure.mgmt.avs.models.GlobalReachConnectionProvisioningState
+    - name: GlobalReachConnectionStatus
+      uid: azure.mgmt.avs.models.GlobalReachConnectionStatus
+    - name: HcxEnterpriseSite
+      uid: azure.mgmt.avs.models.HcxEnterpriseSite
+    - name: HcxEnterpriseSiteList
+      uid: azure.mgmt.avs.models.HcxEnterpriseSiteList
+    - name: HcxEnterpriseSiteProvisioningState
+      uid: azure.mgmt.avs.models.HcxEnterpriseSiteProvisioningState
+    - name: HcxEnterpriseSiteStatus
+      uid: azure.mgmt.avs.models.HcxEnterpriseSiteStatus
+    - name: IdentitySource
+      uid: azure.mgmt.avs.models.IdentitySource
+    - name: InternetEnum
+      uid: azure.mgmt.avs.models.InternetEnum
+    - name: IscsiPath
+      uid: azure.mgmt.avs.models.IscsiPath
+    - name: IscsiPathListResult
+      uid: azure.mgmt.avs.models.IscsiPathListResult
+    - name: IscsiPathProvisioningState
+      uid: azure.mgmt.avs.models.IscsiPathProvisioningState
+    - name: ManagementCluster
+      uid: azure.mgmt.avs.models.ManagementCluster
+    - name: MountOptionEnum
+      uid: azure.mgmt.avs.models.MountOptionEnum
+    - name: NetAppVolume
+      uid: azure.mgmt.avs.models.NetAppVolume
+    - name: NsxPublicIpQuotaRaisedEnum
+      uid: azure.mgmt.avs.models.NsxPublicIpQuotaRaisedEnum
+    - name: Operation
+      uid: azure.mgmt.avs.models.Operation
+    - name: OperationDisplay
+      uid: azure.mgmt.avs.models.OperationDisplay
+    - name: OperationListResult
+      uid: azure.mgmt.avs.models.OperationListResult
+    - name: OptionalParamEnum
+      uid: azure.mgmt.avs.models.OptionalParamEnum
+    - name: Origin
+      uid: azure.mgmt.avs.models.Origin
+    - name: PSCredentialExecutionParameter
+      uid: azure.mgmt.avs.models.PSCredentialExecutionParameter
+    - name: PlacementPoliciesList
+      uid: azure.mgmt.avs.models.PlacementPoliciesList
+    - name: PlacementPolicy
+      uid: azure.mgmt.avs.models.PlacementPolicy
+    - name: PlacementPolicyProperties
+      uid: azure.mgmt.avs.models.PlacementPolicyProperties
+    - name: PlacementPolicyProvisioningState
+      uid: azure.mgmt.avs.models.PlacementPolicyProvisioningState
+    - name: PlacementPolicyState
+      uid: azure.mgmt.avs.models.PlacementPolicyState
+    - name: PlacementPolicyType
+      uid: azure.mgmt.avs.models.PlacementPolicyType
+    - name: PlacementPolicyUpdate
+      uid: azure.mgmt.avs.models.PlacementPolicyUpdate
+    - name: PortMirroringDirectionEnum
+      uid: azure.mgmt.avs.models.PortMirroringDirectionEnum
+    - name: PortMirroringStatusEnum
+      uid: azure.mgmt.avs.models.PortMirroringStatusEnum
+    - name: PrivateCloud
+      uid: azure.mgmt.avs.models.PrivateCloud
+    - name: PrivateCloudIdentity
+      uid: azure.mgmt.avs.models.PrivateCloudIdentity
+    - name: PrivateCloudList
+      uid: azure.mgmt.avs.models.PrivateCloudList
+    - name: PrivateCloudProvisioningState
+      uid: azure.mgmt.avs.models.PrivateCloudProvisioningState
+    - name: PrivateCloudUpdate
+      uid: azure.mgmt.avs.models.PrivateCloudUpdate
+    - name: ProxyResource
+      uid: azure.mgmt.avs.models.ProxyResource
+    - name: Quota
+      uid: azure.mgmt.avs.models.Quota
+    - name: QuotaEnabled
+      uid: azure.mgmt.avs.models.QuotaEnabled
+    - name: Resource
+      uid: azure.mgmt.avs.models.Resource
+    - name: ResourceIdentityType
+      uid: azure.mgmt.avs.models.ResourceIdentityType
+    - name: ScriptCmdlet
+      uid: azure.mgmt.avs.models.ScriptCmdlet
+    - name: ScriptCmdletAudience
+      uid: azure.mgmt.avs.models.ScriptCmdletAudience
+    - name: ScriptCmdletProvisioningState
+      uid: azure.mgmt.avs.models.ScriptCmdletProvisioningState
+    - name: ScriptCmdletsList
+      uid: azure.mgmt.avs.models.ScriptCmdletsList
+    - name: ScriptExecution
+      uid: azure.mgmt.avs.models.ScriptExecution
+    - name: ScriptExecutionParameter
+      uid: azure.mgmt.avs.models.ScriptExecutionParameter
+    - name: ScriptExecutionParameterType
+      uid: azure.mgmt.avs.models.ScriptExecutionParameterType
+    - name: ScriptExecutionProvisioningState
+      uid: azure.mgmt.avs.models.ScriptExecutionProvisioningState
+    - name: ScriptExecutionsList
+      uid: azure.mgmt.avs.models.ScriptExecutionsList
+    - name: ScriptOutputStreamType
+      uid: azure.mgmt.avs.models.ScriptOutputStreamType
+    - name: ScriptPackage
+      uid: azure.mgmt.avs.models.ScriptPackage
+    - name: ScriptPackageProvisioningState
+      uid: azure.mgmt.avs.models.ScriptPackageProvisioningState
+    - name: ScriptPackagesList
+      uid: azure.mgmt.avs.models.ScriptPackagesList
+    - name: ScriptParameter
+      uid: azure.mgmt.avs.models.ScriptParameter
+    - name: ScriptParameterTypes
+      uid: azure.mgmt.avs.models.ScriptParameterTypes
+    - name: ScriptSecureStringExecutionParameter
+      uid: azure.mgmt.avs.models.ScriptSecureStringExecutionParameter
+    - name: ScriptStringExecutionParameter
+      uid: azure.mgmt.avs.models.ScriptStringExecutionParameter
+    - name: SegmentStatusEnum
+      uid: azure.mgmt.avs.models.SegmentStatusEnum
+    - name: Sku
+      uid: azure.mgmt.avs.models.Sku
+    - name: SkuTier
+      uid: azure.mgmt.avs.models.SkuTier
+    - name: SslEnum
+      uid: azure.mgmt.avs.models.SslEnum
+    - name: SystemData
+      uid: azure.mgmt.avs.models.SystemData
+    - name: TrackedResource
+      uid: azure.mgmt.avs.models.TrackedResource
+    - name: Trial
+      uid: azure.mgmt.avs.models.Trial
+    - name: TrialStatus
+      uid: azure.mgmt.avs.models.TrialStatus
+    - name: VMGroupStatusEnum
+      uid: azure.mgmt.avs.models.VMGroupStatusEnum
+    - name: VMTypeEnum
+      uid: azure.mgmt.avs.models.VMTypeEnum
+    - name: VirtualMachine
+      uid: azure.mgmt.avs.models.VirtualMachine
+    - name: VirtualMachineProvisioningState
+      uid: azure.mgmt.avs.models.VirtualMachineProvisioningState
+    - name: VirtualMachineRestrictMovement
+      uid: azure.mgmt.avs.models.VirtualMachineRestrictMovement
+    - name: VirtualMachineRestrictMovementState
+      uid: azure.mgmt.avs.models.VirtualMachineRestrictMovementState
+    - name: VirtualMachinesList
+      uid: azure.mgmt.avs.models.VirtualMachinesList
+    - name: VisibilityParameterEnum
+      uid: azure.mgmt.avs.models.VisibilityParameterEnum
+    - name: VmHostPlacementPolicyProperties
+      uid: azure.mgmt.avs.models.VmHostPlacementPolicyProperties
+    - name: VmPlacementPolicyProperties
+      uid: azure.mgmt.avs.models.VmPlacementPolicyProperties
+    - name: WorkloadNetwork
+      uid: azure.mgmt.avs.models.WorkloadNetwork
+    - name: WorkloadNetworkDhcp
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcp
+    - name: WorkloadNetworkDhcpEntity
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcpEntity
+    - name: WorkloadNetworkDhcpList
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcpList
+    - name: WorkloadNetworkDhcpProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcpProvisioningState
+    - name: WorkloadNetworkDhcpRelay
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcpRelay
+    - name: WorkloadNetworkDhcpServer
+      uid: azure.mgmt.avs.models.WorkloadNetworkDhcpServer
+    - name: WorkloadNetworkDnsService
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsService
+    - name: WorkloadNetworkDnsServiceProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsServiceProvisioningState
+    - name: WorkloadNetworkDnsServicesList
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsServicesList
+    - name: WorkloadNetworkDnsZone
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsZone
+    - name: WorkloadNetworkDnsZoneProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsZoneProvisioningState
+    - name: WorkloadNetworkDnsZonesList
+      uid: azure.mgmt.avs.models.WorkloadNetworkDnsZonesList
+    - name: WorkloadNetworkGateway
+      uid: azure.mgmt.avs.models.WorkloadNetworkGateway
+    - name: WorkloadNetworkGatewayList
+      uid: azure.mgmt.avs.models.WorkloadNetworkGatewayList
+    - name: WorkloadNetworkList
+      uid: azure.mgmt.avs.models.WorkloadNetworkList
+    - name: WorkloadNetworkPortMirroring
+      uid: azure.mgmt.avs.models.WorkloadNetworkPortMirroring
+    - name: WorkloadNetworkPortMirroringList
+      uid: azure.mgmt.avs.models.WorkloadNetworkPortMirroringList
+    - name: WorkloadNetworkPortMirroringProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkPortMirroringProvisioningState
+    - name: WorkloadNetworkProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkProvisioningState
+    - name: WorkloadNetworkPublicIP
+      uid: azure.mgmt.avs.models.WorkloadNetworkPublicIP
+    - name: WorkloadNetworkPublicIPProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkPublicIPProvisioningState
+    - name: WorkloadNetworkPublicIPsList
+      uid: azure.mgmt.avs.models.WorkloadNetworkPublicIPsList
+    - name: WorkloadNetworkSegment
+      uid: azure.mgmt.avs.models.WorkloadNetworkSegment
+    - name: WorkloadNetworkSegmentPortVif
+      uid: azure.mgmt.avs.models.WorkloadNetworkSegmentPortVif
+    - name: WorkloadNetworkSegmentProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkSegmentProvisioningState
+    - name: WorkloadNetworkSegmentSubnet
+      uid: azure.mgmt.avs.models.WorkloadNetworkSegmentSubnet
+    - name: WorkloadNetworkSegmentsList
+      uid: azure.mgmt.avs.models.WorkloadNetworkSegmentsList
+    - name: WorkloadNetworkVMGroup
+      uid: azure.mgmt.avs.models.WorkloadNetworkVMGroup
+    - name: WorkloadNetworkVMGroupProvisioningState
+      uid: azure.mgmt.avs.models.WorkloadNetworkVMGroupProvisioningState
+    - name: WorkloadNetworkVMGroupsList
+      uid: azure.mgmt.avs.models.WorkloadNetworkVMGroupsList
+    - name: WorkloadNetworkVirtualMachine
+      uid: azure.mgmt.avs.models.WorkloadNetworkVirtualMachine
+    - name: WorkloadNetworkVirtualMachinesList
+      uid: azure.mgmt.avs.models.WorkloadNetworkVirtualMachinesList
+    name: models
+  - items:
+    - name: Overview
+      uid: azure.mgmt.avs.operations
+    - name: AddonsOperations
+      uid: azure.mgmt.avs.operations.AddonsOperations
+    - name: AuthorizationsOperations
+      uid: azure.mgmt.avs.operations.AuthorizationsOperations
+    - name: CloudLinksOperations
+      uid: azure.mgmt.avs.operations.CloudLinksOperations
+    - name: ClustersOperations
+      uid: azure.mgmt.avs.operations.ClustersOperations
+    - name: DatastoresOperations
+      uid: azure.mgmt.avs.operations.DatastoresOperations
+    - name: GlobalReachConnectionsOperations
+      uid: azure.mgmt.avs.operations.GlobalReachConnectionsOperations
+    - name: HcxEnterpriseSitesOperations
+      uid: azure.mgmt.avs.operations.HcxEnterpriseSitesOperations
+    - name: IscsiPathsOperations
+      uid: azure.mgmt.avs.operations.IscsiPathsOperations
+    - name: LocationsOperations
+      uid: azure.mgmt.avs.operations.LocationsOperations
+    - name: Operations
+      uid: azure.mgmt.avs.operations.Operations
+    - name: PlacementPoliciesOperations
+      uid: azure.mgmt.avs.operations.PlacementPoliciesOperations
+    - name: PrivateCloudsOperations
+      uid: azure.mgmt.avs.operations.PrivateCloudsOperations
+    - name: ScriptCmdletsOperations
+      uid: azure.mgmt.avs.operations.ScriptCmdletsOperations
+    - name: ScriptExecutionsOperations
+      uid: azure.mgmt.avs.operations.ScriptExecutionsOperations
+    - name: ScriptPackagesOperations
+      uid: azure.mgmt.avs.operations.ScriptPackagesOperations
+    - name: VirtualMachinesOperations
+      uid: azure.mgmt.avs.operations.VirtualMachinesOperations
+    - name: WorkloadNetworksOperations
+      uid: azure.mgmt.avs.operations.WorkloadNetworksOperations
+    name: operations
+  - name: AVSClient
+    uid: azure.mgmt.avs.AVSClient
+  name: azure.mgmt.avs
 - items:
   - name: Overview
     uid: azure.mgmt.azurearcdata
@@ -31097,6 +31611,8 @@
         uid: azure.mgmt.oracledatabase.aio.operations.Operations
       - name: OracleSubscriptionsOperations
         uid: azure.mgmt.oracledatabase.aio.operations.OracleSubscriptionsOperations
+      - name: SystemVersionsOperations
+        uid: azure.mgmt.oracledatabase.aio.operations.SystemVersionsOperations
       - name: VirtualNetworkAddressesOperations
         uid: azure.mgmt.oracledatabase.aio.operations.VirtualNetworkAddressesOperations
       name: operations
@@ -31310,14 +31826,16 @@
       uid: azure.mgmt.oracledatabase.models.IormLifecycleState
     - name: LicenseModel
       uid: azure.mgmt.oracledatabase.models.LicenseModel
+    - name: LongTermBackUpScheduleDetails
+      uid: azure.mgmt.oracledatabase.models.LongTermBackUpScheduleDetails
     - name: MaintenanceWindow
       uid: azure.mgmt.oracledatabase.models.MaintenanceWindow
     - name: Month
       uid: azure.mgmt.oracledatabase.models.Month
     - name: MonthName
       uid: azure.mgmt.oracledatabase.models.MonthName
-    - name: NSGCidr
-      uid: azure.mgmt.oracledatabase.models.NSGCidr
+    - name: NsgCidr
+      uid: azure.mgmt.oracledatabase.models.NsgCidr
     - name: Objective
       uid: azure.mgmt.oracledatabase.models.Objective
     - name: OpenModeType
@@ -31352,6 +31870,8 @@
       uid: azure.mgmt.oracledatabase.models.PermissionLevelType
     - name: Plan
       uid: azure.mgmt.oracledatabase.models.Plan
+    - name: PlanUpdate
+      uid: azure.mgmt.oracledatabase.models.PlanUpdate
     - name: PortRange
       uid: azure.mgmt.oracledatabase.models.PortRange
     - name: Preference
@@ -31370,12 +31890,14 @@
       uid: azure.mgmt.oracledatabase.models.RefreshableModelType
     - name: RefreshableStatusType
       uid: azure.mgmt.oracledatabase.models.RefreshableStatusType
+    - name: RepeatCadenceType
+      uid: azure.mgmt.oracledatabase.models.RepeatCadenceType
     - name: Resource
       uid: azure.mgmt.oracledatabase.models.Resource
-    - name: ResourcePlanTypeUpdate
-      uid: azure.mgmt.oracledatabase.models.ResourcePlanTypeUpdate
     - name: ResourceProvisioningState
       uid: azure.mgmt.oracledatabase.models.ResourceProvisioningState
+    - name: RestoreAutonomousDatabaseDetails
+      uid: azure.mgmt.oracledatabase.models.RestoreAutonomousDatabaseDetails
     - name: RoleType
       uid: azure.mgmt.oracledatabase.models.RoleType
     - name: SaasSubscriptionDetails
@@ -31392,6 +31914,14 @@
       uid: azure.mgmt.oracledatabase.models.SyntaxFormatType
     - name: SystemData
       uid: azure.mgmt.oracledatabase.models.SystemData
+    - name: SystemVersion
+      uid: azure.mgmt.oracledatabase.models.SystemVersion
+    - name: SystemVersionListResult
+      uid: azure.mgmt.oracledatabase.models.SystemVersionListResult
+    - name: SystemVersionProperties
+      uid: azure.mgmt.oracledatabase.models.SystemVersionProperties
+    - name: SystemVersionsFilter
+      uid: azure.mgmt.oracledatabase.models.SystemVersionsFilter
     - name: TlsAuthenticationType
       uid: azure.mgmt.oracledatabase.models.TlsAuthenticationType
     - name: TrackedResource
@@ -31404,8 +31934,6 @@
       uid: azure.mgmt.oracledatabase.models.ValidationResult
     - name: ValidationStatus
       uid: azure.mgmt.oracledatabase.models.ValidationStatus
-    - name: Versions
-      uid: azure.mgmt.oracledatabase.models.Versions
     - name: VirtualNetworkAddress
       uid: azure.mgmt.oracledatabase.models.VirtualNetworkAddress
     - name: VirtualNetworkAddressLifecycleState
@@ -31452,6 +31980,8 @@
       uid: azure.mgmt.oracledatabase.operations.Operations
     - name: OracleSubscriptionsOperations
       uid: azure.mgmt.oracledatabase.operations.OracleSubscriptionsOperations
+    - name: SystemVersionsOperations
+      uid: azure.mgmt.oracledatabase.operations.SystemVersionsOperations
     - name: VirtualNetworkAddressesOperations
       uid: azure.mgmt.oracledatabase.operations.VirtualNetworkAddressesOperations
     name: operations
@@ -33591,6 +34121,8 @@
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.ServerBackupV2
       - name: ServerBackupV2ListResult
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.ServerBackupV2ListResult
+      - name: ServerDetachVNetParameter
+        uid: azure.mgmt.rdbms.mysql_flexibleservers.models.ServerDetachVNetParameter
       - name: ServerEditionCapability
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.ServerEditionCapability
       - name: ServerEditionCapabilityV2
@@ -33621,6 +34153,8 @@
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.Storage
       - name: StorageEditionCapability
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.StorageEditionCapability
+      - name: StorageRedundancyEnum
+        uid: azure.mgmt.rdbms.mysql_flexibleservers.models.StorageRedundancyEnum
       - name: SystemData
         uid: azure.mgmt.rdbms.mysql_flexibleservers.models.SystemData
       - name: TrackedResource
@@ -54348,6 +54882,10 @@
       uid: azure.synapse.artifacts.models.Expression
     - name: ExpressionType
       uid: azure.synapse.artifacts.models.ExpressionType
+    - name: ExpressionV2
+      uid: azure.synapse.artifacts.models.ExpressionV2
+    - name: ExpressionV2Type
+      uid: azure.synapse.artifacts.models.ExpressionV2Type
     - name: FailActivity
       uid: azure.synapse.artifacts.models.FailActivity
     - name: FileServerLinkedService
@@ -54408,6 +54946,14 @@
       uid: azure.synapse.artifacts.models.GoogleBigQueryObjectDataset
     - name: GoogleBigQuerySource
       uid: azure.synapse.artifacts.models.GoogleBigQuerySource
+    - name: GoogleBigQueryV2AuthenticationType
+      uid: azure.synapse.artifacts.models.GoogleBigQueryV2AuthenticationType
+    - name: GoogleBigQueryV2LinkedService
+      uid: azure.synapse.artifacts.models.GoogleBigQueryV2LinkedService
+    - name: GoogleBigQueryV2ObjectDataset
+      uid: azure.synapse.artifacts.models.GoogleBigQueryV2ObjectDataset
+    - name: GoogleBigQueryV2Source
+      uid: azure.synapse.artifacts.models.GoogleBigQueryV2Source
     - name: GoogleCloudStorageLinkedService
       uid: azure.synapse.artifacts.models.GoogleCloudStorageLinkedService
     - name: GoogleCloudStorageLocation
@@ -54578,6 +55124,20 @@
       uid: azure.synapse.artifacts.models.KqlScriptResource
     - name: KqlScriptsResourceCollectionResponse
       uid: azure.synapse.artifacts.models.KqlScriptsResourceCollectionResponse
+    - name: LakeHouseLinkedService
+      uid: azure.synapse.artifacts.models.LakeHouseLinkedService
+    - name: LakeHouseLocation
+      uid: azure.synapse.artifacts.models.LakeHouseLocation
+    - name: LakeHouseReadSettings
+      uid: azure.synapse.artifacts.models.LakeHouseReadSettings
+    - name: LakeHouseTableDataset
+      uid: azure.synapse.artifacts.models.LakeHouseTableDataset
+    - name: LakeHouseTableSink
+      uid: azure.synapse.artifacts.models.LakeHouseTableSink
+    - name: LakeHouseTableSource
+      uid: azure.synapse.artifacts.models.LakeHouseTableSource
+    - name: LakeHouseWriteSettings
+      uid: azure.synapse.artifacts.models.LakeHouseWriteSettings
     - name: LibraryInfo
       uid: azure.synapse.artifacts.models.LibraryInfo
     - name: LibraryListResponse
@@ -54686,6 +55246,8 @@
       uid: azure.synapse.artifacts.models.MarketoObjectDataset
     - name: MarketoSource
       uid: azure.synapse.artifacts.models.MarketoSource
+    - name: MetadataItem
+      uid: azure.synapse.artifacts.models.MetadataItem
     - name: MetastoreRegisterObject
       uid: azure.synapse.artifacts.models.MetastoreRegisterObject
     - name: MetastoreRegistrationResponse
@@ -54842,6 +55404,8 @@
       uid: azure.synapse.artifacts.models.ParquetDataset
     - name: ParquetFormat
       uid: azure.synapse.artifacts.models.ParquetFormat
+    - name: ParquetReadSettings
+      uid: azure.synapse.artifacts.models.ParquetReadSettings
     - name: ParquetSink
       uid: azure.synapse.artifacts.models.ParquetSink
     - name: ParquetSource
@@ -54890,6 +55454,12 @@
       uid: azure.synapse.artifacts.models.PostgreSqlSource
     - name: PostgreSqlTableDataset
       uid: azure.synapse.artifacts.models.PostgreSqlTableDataset
+    - name: PostgreSqlV2LinkedService
+      uid: azure.synapse.artifacts.models.PostgreSqlV2LinkedService
+    - name: PostgreSqlV2Source
+      uid: azure.synapse.artifacts.models.PostgreSqlV2Source
+    - name: PostgreSqlV2TableDataset
+      uid: azure.synapse.artifacts.models.PostgreSqlV2TableDataset
     - name: PowerBIWorkspaceLinkedService
       uid: azure.synapse.artifacts.models.PowerBIWorkspaceLinkedService
     - name: PrestoAuthenticationType
@@ -55034,6 +55604,14 @@
       uid: azure.synapse.artifacts.models.SalesforceServiceCloudSink
     - name: SalesforceServiceCloudSource
       uid: azure.synapse.artifacts.models.SalesforceServiceCloudSource
+    - name: SalesforceServiceCloudV2LinkedService
+      uid: azure.synapse.artifacts.models.SalesforceServiceCloudV2LinkedService
+    - name: SalesforceServiceCloudV2ObjectDataset
+      uid: azure.synapse.artifacts.models.SalesforceServiceCloudV2ObjectDataset
+    - name: SalesforceServiceCloudV2Sink
+      uid: azure.synapse.artifacts.models.SalesforceServiceCloudV2Sink
+    - name: SalesforceServiceCloudV2Source
+      uid: azure.synapse.artifacts.models.SalesforceServiceCloudV2Source
     - name: SalesforceSink
       uid: azure.synapse.artifacts.models.SalesforceSink
     - name: SalesforceSinkWriteBehavior
@@ -55042,6 +55620,16 @@
       uid: azure.synapse.artifacts.models.SalesforceSource
     - name: SalesforceSourceReadBehavior
       uid: azure.synapse.artifacts.models.SalesforceSourceReadBehavior
+    - name: SalesforceV2LinkedService
+      uid: azure.synapse.artifacts.models.SalesforceV2LinkedService
+    - name: SalesforceV2ObjectDataset
+      uid: azure.synapse.artifacts.models.SalesforceV2ObjectDataset
+    - name: SalesforceV2Sink
+      uid: azure.synapse.artifacts.models.SalesforceV2Sink
+    - name: SalesforceV2SinkWriteBehavior
+      uid: azure.synapse.artifacts.models.SalesforceV2SinkWriteBehavior
+    - name: SalesforceV2Source
+      uid: azure.synapse.artifacts.models.SalesforceV2Source
     - name: SapBWLinkedService
       uid: azure.synapse.artifacts.models.SapBWLinkedService
     - name: SapBwCubeDataset
@@ -55140,6 +55728,14 @@
       uid: azure.synapse.artifacts.models.ServiceNowObjectDataset
     - name: ServiceNowSource
       uid: azure.synapse.artifacts.models.ServiceNowSource
+    - name: ServiceNowV2AuthenticationType
+      uid: azure.synapse.artifacts.models.ServiceNowV2AuthenticationType
+    - name: ServiceNowV2LinkedServiceTypeProperties
+      uid: azure.synapse.artifacts.models.ServiceNowV2LinkedServiceTypeProperties
+    - name: ServiceNowV2ObjectDataset
+      uid: azure.synapse.artifacts.models.ServiceNowV2ObjectDataset
+    - name: ServiceNowV2Source
+      uid: azure.synapse.artifacts.models.ServiceNowV2Source
     - name: SetVariableActivity
       uid: azure.synapse.artifacts.models.SetVariableActivity
     - name: SftpAuthenticationType
@@ -55170,6 +55766,8 @@
       uid: azure.synapse.artifacts.models.Sku
     - name: SmartsheetLinkedService
       uid: azure.synapse.artifacts.models.SmartsheetLinkedService
+    - name: SnowflakeAuthenticationType
+      uid: azure.synapse.artifacts.models.SnowflakeAuthenticationType
     - name: SnowflakeDataset
       uid: azure.synapse.artifacts.models.SnowflakeDataset
     - name: SnowflakeExportCopyCommand
@@ -55182,6 +55780,14 @@
       uid: azure.synapse.artifacts.models.SnowflakeSink
     - name: SnowflakeSource
       uid: azure.synapse.artifacts.models.SnowflakeSource
+    - name: SnowflakeV2Dataset
+      uid: azure.synapse.artifacts.models.SnowflakeV2Dataset
+    - name: SnowflakeV2LinkedService
+      uid: azure.synapse.artifacts.models.SnowflakeV2LinkedService
+    - name: SnowflakeV2Sink
+      uid: azure.synapse.artifacts.models.SnowflakeV2Sink
+    - name: SnowflakeV2Source
+      uid: azure.synapse.artifacts.models.SnowflakeV2Source
     - name: SparkAuthenticationType
       uid: azure.synapse.artifacts.models.SparkAuthenticationType
     - name: SparkBatchJob
@@ -55434,6 +56040,14 @@
       uid: azure.synapse.artifacts.models.VirtualNetworkProfile
     - name: WaitActivity
       uid: azure.synapse.artifacts.models.WaitActivity
+    - name: WarehouseLinkedService
+      uid: azure.synapse.artifacts.models.WarehouseLinkedService
+    - name: WarehouseSink
+      uid: azure.synapse.artifacts.models.WarehouseSink
+    - name: WarehouseSource
+      uid: azure.synapse.artifacts.models.WarehouseSource
+    - name: WarehouseTableDataset
+      uid: azure.synapse.artifacts.models.WarehouseTableDataset
     - name: WebActivity
       uid: azure.synapse.artifacts.models.WebActivity
     - name: WebActivityAuthentication
